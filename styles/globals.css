@@ -1,0 +1,19 @@
+/* Add these styles for the toggle switches */
+.toggle-checkbox:checked {
+  right: 0;
+  border-color: #2563eb;
+}
+
+.toggle-checkbox:checked + .toggle-label {
+  background-color: #2563eb;
+}
+
+.toggle-checkbox {
+  right: 0;
+  transition: all 0.3s;
+  border-color: #d1d5db;
+}
+
+.toggle-label {
+  transition: background-color 0.3s;
+} 
